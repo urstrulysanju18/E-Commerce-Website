@@ -6,7 +6,7 @@ const productSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    slug: {
+    slug: {              // Converts the name to a slug. For ex: "Red Chucks Shirt" --> "red-chucks-shirt"
       type: String,
       required: true,
     },
